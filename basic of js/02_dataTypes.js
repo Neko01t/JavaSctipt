@@ -10,9 +10,6 @@ let NonNum = NaN //not a number but saved as number data type
 //2 - strings
 let Str1 = 'hi Harry' //single quotes to store value 
 let str2 = "You are" //double quotes to store value
-let str3 = ```
-A  wizard
-``` // triple backticks to store mutiple lines in varbale (you inject variables in stirngs too when u backticks using ${Variable})
 let str4 = `${Num} dumb ways to become wizard` // output - 101 dumb ways to become wizard
 
 
@@ -51,3 +48,13 @@ let DArray = [1, 2, "work", null, undefined,] //you can make array of anything e
 //            0, 1,  3    , 4   , 5        indexes of array starts 
 // how ro access it 
 console.log(DArray[3]) // out puts the third key value
+
+
+//3- function (){}
+function NameOfFunction() {
+    console.log("i am in funtion scope")
+}
+
+//4- Date
+let date = new Date(); //object used to work with date and time
+console.log(date.toDateString());
